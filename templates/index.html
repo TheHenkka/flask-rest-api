@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>Welcome to webstore API</h1>
+<h2>Usage:</h2>
+<h4>GET 'http://127.0.0.1:5000/cart/[cart_id]'</h4>
+<p>-API fetches cart data from database using cart ID.</p>
+<h4>PUT 'http://127.0.0.1:5000/cart, {'items': '[1,2,3,4]', 'country': 'country_name'}' </h4>
+<p>-API saves new cart to database and sends ID back as response.</p>
+<h4>DELETE 'http://127.0.0.1:5000/cart/[cart_id]' </h4>
+<p>-API deletes data from database and returns HTTP code</p>
+<h4>PATCH 'http://127.0.0.1:5000/cart/[cart_id], {'items': '[1,2,3,4]', 'country': 'country_name'}' </h4>
+<p>-API updates and saves data, and returns HTTP code</p>
+{% endblock %}

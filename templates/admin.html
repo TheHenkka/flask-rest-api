@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>ADMIN</h1>
+<h2>Carts</h2>
+<table>
+	<tr><th>ID</th><th>Items</th><th>Country</th></tr>
+	{% for i in carts %}
+	<tr>
+		<td>{{ i['id'] }}</td>
+		<td>{{ i['items'] }}</td>
+		<td>{{ i['country'] }}</td>
+	</tr>
+	{% endfor %}
+</table>
+
+{% endblock %}
