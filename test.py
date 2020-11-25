@@ -40,9 +40,9 @@ print(deleteAPI(13))
 print(getAPI(4))
 
 
-#######################################################
-#   Tests. Read database before running or check IDs  #
-#######################################################
+#####################################################################################
+#   Tests. Read database from test.sql to database.sql before running or check IDs  #
+#####################################################################################
 
 def test_get1():
     existingCartID =1
