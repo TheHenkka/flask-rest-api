@@ -13,15 +13,14 @@ Simple Flask REST API for shopping carts
   ### Installation
 
   1. Go to project directory `cd flask-rest-api`.
-  2. Run `pip install virtualenv` to install virtual environment
-  3. On Windows run `Set-ExecutionPolicy Unrestricted -Scope Process` to allow scripts.
-  4. Run `.\env\Scripts\activate.ps1` to activate virtual environment.
-  5. Run `python app.py` inside virtualenv to start
+  2. Run `pip install flask` and `pip install flask-restful`
+  3. Run `python app.py` to start
 
 ## Usage
 
-  1. Run `python test.py` or `pytest test.py`.
-  2. Go to `localhost:5000` or `localhost:5000/login` on your browser to open the site.
+  1. Go to `localhost:5000` or `localhost:5000/login` on your browser to open the site.
+  2. For testing install `pip install pytest` and `pip install requests` 
+  3. Run `python test.py` or `pytest test.py`.
   
 
   ## Used resources
